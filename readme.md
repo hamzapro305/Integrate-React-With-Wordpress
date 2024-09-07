@@ -1,8 +1,8 @@
-```markdown
 # React App Integration with WordPress
 
 ## Step 1: Create an Element to Inject React Code
 
+```markdown
 In your WordPress page, add a `div` element with a unique ID where you want to inject the React component:
 
 <div id="HS_REACT"></div>
