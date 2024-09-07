@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
         "emitDecoratorMetadata": true,
+        "baseUrl": "./src/",
+        "paths": {
+            "src/*": ["./src/*"]
+        },
         "experimentalDecorators": true,
         "forceConsistentCasingInFileNames": true,
         "jsx": "react",
