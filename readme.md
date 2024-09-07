@@ -1,5 +1,3 @@
-Here’s your README with the steps to integrate your React app into WordPress:
-
 ```markdown
 # React App Integration with WordPress
 
@@ -9,6 +7,7 @@ In your WordPress page, add a `div` element with a unique ID where you want to i
 
 ```html
 <div id="HS_REACT"></div>
+```
 ```
 
 In your React project, set up the code to render the app into the `div` with the corresponding ID:
