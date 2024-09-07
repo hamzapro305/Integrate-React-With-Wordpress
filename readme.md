@@ -5,9 +5,7 @@
 
 In your WordPress page, add a `div` element with a unique ID where you want to inject the React component:
 
-```html
 <div id="HS_REACT"></div>
-```
 ```
 
 In your React project, set up the code to render the app into the `div` with the corresponding ID:
