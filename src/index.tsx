@@ -1,11 +1,13 @@
-import React from "react";
 import App from "./App";
-import { createRoot } from "react-dom/client";
+import AddSection from "AddSection";
+
+try {
+    process.env.NODE_ENV;
+} catch (e) {
+    var process = { env: { NODE_ENV: "production" } };
+}
 
 window.addEventListener("DOMContentLoaded", () => {
-
     // HS_REACT Section
-    const root = createRoot(document.getElementById("HS_REACT"), {});
-    root.render(<App />);
-
+    AddSection("HS_REACT", App);
 });

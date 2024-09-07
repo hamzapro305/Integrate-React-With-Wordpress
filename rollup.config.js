@@ -7,6 +7,6 @@ export default {
     output: {
         file: "./dist/bundle.js",
     },
-    format: "iife",
+    format: "life",
     plugins: [resolve(), typescript(), commonjs()],
 };
